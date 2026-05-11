@@ -104,11 +104,6 @@ Windows
 
 ---
 
-# Output
-
----
-
-
 # How to Compile and Run (Windows)
 
 ## Using g++ (MinGW)
@@ -149,7 +144,18 @@ g++ inventory_filter.cpp -o inventory_filter.exe
 ```bash
 .\inventory_filter.exe Windows
 ```
-
+---
+# Output
+```
+.\inventory_filter.exe CPU  
+Server with Maximum CPU:
+IP     : 10.217.09.19
+OS     : Windows
+Memory : 4GB
+CPU    : 3.8Ghz
+Disk   : 150GB
+```
+---
 # Assignment Requirements Covered
 
 JSON file processing  
