@@ -1,7 +1,7 @@
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Parses log files line by line
 - Filters logs by type (error/warning/info/debug)
@@ -13,7 +13,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 Q1/
 │
@@ -26,7 +26,7 @@ Q1/
 ```
 ---
 
-## 🚀 How to Compile
+## How to Compile
 
 Open terminal inside `Q1` folder and run:
 
@@ -36,7 +36,7 @@ javac LogParser.java
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash id="run2"
 java LogParser LogParser.log 10 error,warning
@@ -44,7 +44,7 @@ java LogParser LogParser.log 10 error,warning
 
 ---
 
-## 📥 Input Parameters
+## Input Parameters
 
 ```text id="input"
 1. File path (required)
@@ -54,7 +54,7 @@ java LogParser LogParser.log 10 error,warning
 
 ---
 
-## 📌 Example Run
+## Example Run
 
 ```bash id="ex1"
 java LogParser LogParser.log 15 info,debug
@@ -62,7 +62,7 @@ java LogParser LogParser.log 15 info,debug
 
 ---
 
-## 🧠 Concepts Used
+## Concepts Used
 
 - File Handling in Java
 - String Parsing
