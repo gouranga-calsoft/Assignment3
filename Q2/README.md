@@ -1,6 +1,6 @@
-# 📦 Inventory Filter System (C++)
+# Inventory Filter System (C++)
 
-## 📌 Overview
+## Overview
 
 This project is a **C++ based Inventory Filtering System** that reads inventory data from a JSON file and filters it based on user-defined criteria such as **CPU usage, Memory usage, or OS type (Linux/Windows)**.
 
@@ -8,11 +8,11 @@ The project is built using **Object-Oriented Programming (OOP)** principles and 
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Given a JSON file containing inventory information, the program filters the data based on the following criteria:
 
-### 🔹 Filter Criteria
+### Filter Criteria
 
 - **CPU** → Displays the item with maximum CPU usage
 - **Memory** → Displays the item with maximum Memory usage
@@ -21,18 +21,18 @@ Given a JSON file containing inventory information, the program filters the data
 
 ---
 
-## ⚙️ Features
+## Features
 
-- 📂 Reads inventory data from `inventory.json`
-- 🔍 Filters based on CPU, Memory, or OS type
-- ⚠️ Handles invalid or missing filter criteria using exceptions
-- 🧱 Object-Oriented Design (OOP)
-- 🚀 Optimized for large file processing
-- ✅ Easy to compile and run on Windows
+- Reads inventory data from `inventory.json`
+- Filters based on CPU, Memory, or OS type
+- Handles invalid or missing filter criteria using exceptions
+- Object-Oriented Design (OOP)
+- Optimized for large file processing
+- Easy to compile and run on Windows
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 Q2/
@@ -47,7 +47,7 @@ Q2/
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 - C++
 - STL (Standard Template Library)
@@ -56,9 +56,9 @@ Q2/
 
 ---
 
-# 🧠 Concepts Used
+# Concepts Used
 
-## 🔹 Object-Oriented Programming (OOP)
+## Object-Oriented Programming (OOP)
 
 The project follows OOP principles such as:
 
@@ -69,7 +69,7 @@ The project follows OOP principles such as:
 
 ---
 
-## 🔹 Exception Handling
+## Exception Handling
 
 The program throws exceptions in the following cases:
 
@@ -85,13 +85,13 @@ throw invalid_argument("Invalid filter criteria");
 
 ---
 
-## 🔹 JSON File Processing
+## JSON File Processing
 
 The inventory data is read from a JSON file and parsed into C++ objects for filtering operations.
 
 ---
 
-# 📥 Input
+# Input
 
 The program accepts one filter criterion:
 
@@ -104,14 +104,14 @@ Windows
 
 ---
 
-# 📤 Output
+# Output
 
 ---
 
 
-# ▶️ How to Compile and Run (Windows)
+# How to Compile and Run (Windows)
 
-## 🔹 Using g++ (MinGW)
+## Using g++ (MinGW)
 
 ### Step 1: Open Command Prompt
 
@@ -135,7 +135,7 @@ g++ inventory_filter.cpp -o inventory_filter.exe
 
 ---
 
-## 🔹 Sample Run
+## Sample Run
 
 ```bash
 .\inventory_filter.exe CPU
@@ -150,13 +150,13 @@ g++ inventory_filter.cpp -o inventory_filter.exe
 .\inventory_filter.exe Windows
 ```
 
-# 📌 Assignment Requirements Covered
+# Assignment Requirements Covered
 
-✅ JSON file processing  
-✅ Filtering by CPU/Memory/OS  
-✅ Exception handling  
-✅ Object-Oriented Design  
-✅ Large file optimization  
+JSON file processing  
+Filtering by CPU/Memory/OS  
+Exception handling  
+Object-Oriented Design  
+Large file optimization  
 
 ---
 
